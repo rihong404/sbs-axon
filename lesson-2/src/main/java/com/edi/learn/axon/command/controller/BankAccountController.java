@@ -29,7 +29,7 @@ public class BankAccountController {
     @Autowired
     private HttpServletResponse response;
 
-    @RequestMapping(method = RequestMethod.POST)
+    @RequestMapping(method = RequestMethod.GET)
     public void create() {
         LOGGER.info("start");
         AccountId id = new AccountId();
